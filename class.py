@@ -2,7 +2,8 @@ import pygame
 
 class player_look:
     def __init__(self):
-        self.rect.
+        self.rect=pygame.Rect=(10,10,20,20)
+        self.color=pygame.color(0,0,225)
 
 class player:
     def __init__(self):
@@ -23,6 +24,8 @@ class player:
         def handleCollision():
             if self.box.rect.colliderect(rect):
                 self.box.colorChange
+
+
 
 
 
